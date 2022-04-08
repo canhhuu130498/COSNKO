@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>COSNKO LAB</title>
+</head>
+<body>
+	<header>
+		<div class="container header" id="myheader">
+		<a href="#" class="logo">COSNKO LAB</a>
+		<a href="#" class="home">Home</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+		</a>
+		</div>
+	</header>
+	<main>
+		<div class="container main">
+			<div class="main_top">
+			  	<h1>COSNKO LAB</h1>
+				<p>We are almost ready to launch! Be the first to know</p> 
+			  	<form>
+			    	<div class="form">
+			      		<input type="email" class="form_input" placeholder="Enter Your Email" >
+			        	<button type="button" class="form_button">Subcribe</button>
+			    	</div>
+			  	</form>
+			  	<div class="main_bottom">
+						<h2 class="title0">Coming Soon</h2>
+						<h2 class="title1">Coming Soon</h2>
+						<h2 class="title2">Coming Soon</h2>
+						<h2 class="title3">Coming Soon</h2>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container footer">
+			<div class="footer_left">
+				<h3>Công ty TNHH COSNKO LAB</h3>
+				<p>Số ĐKKD 0316947975 do Sở KHĐT Tp. HCM cấp ngày 03/08/2021</p>
+				<p>Email: master.cosnkolab@gmail.com</p>
+				<p>Hotline: 02836201004</p>
+				<p>Địa Chỉ :11 Nguyen Duy Hieu, Thao Dien Ward, Thu Duc City, Ho Chi Minh City</p>
+			</div>
+			<nav>
+				<ul class="nav footer_right">
+					<li><a href="#" class="nav-link">Về Chúng Tôi</a></li>
+					<li class="nav_li"><a href="#" class="nav-link">Điều Khoản và Điều Kiện</a></li>
+					<li class="nav_li"><a href="#" class="nav-link">Chính sách quy định chung</a></li>
+					<li class="nav_li"><a href="#" class="nav-link">Chính Sách Bảo Mật</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="container copyright">
+			<p>Copyright © 2021 COSNKO LAB CO.,LTD. All rights reserved</p>
+		</div>
+		
+	</footer>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myheader");
+		  if (x.className === "container header") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "container header";
+		  }
+		}
+	</script>
+</body>
+</html>
